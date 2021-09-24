@@ -1,0 +1,12 @@
+{
+  "name": "gunpeer",
+  "version": "0.0.1",
+  "description": "GunDB Peer Server",
+  "main": "peer.js",
+  "repository": "git@github.com:Choko256/gunpeer.git",
+  "author": "Michael Chacaton <pro@chaksoft.fr>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "gun": "^0.2020.1235"
+  }
+}
