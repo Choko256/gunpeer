@@ -7,5 +7,7 @@ RUN yarn
 
 ENV PORT 8080
 
+VOLUME ["/app/radata"]
+
 COPY peer.js /app/
 CMD ["node", "peer.js"]
