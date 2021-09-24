@@ -1,5 +1,4 @@
 FROM node:16-alpine
-LABEL maintainer "pro@chaksoft.fr"
 
 WORKDIR /app
 COPY package.json yarn.lock /app/
