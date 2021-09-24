@@ -1,3 +1,4 @@
+# Use PORT env var to specify the port where you want the server to listen on
 FROM node:16-alpine
 
 WORKDIR /app
